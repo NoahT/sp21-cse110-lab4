@@ -38,4 +38,7 @@
     F. true
 15. == is a non-strict equality comparison. In other words, type-conversion is applied to our operands prior to comparison. === is a strict quality comparison; type conversion is not applied to our operands before comparing. Non-strict equality comparison should be used to check for equality regardless of type, whereas strict equality comparison should be used to check for value and type equivalence.
 17. [2, 4, 6] will be returned. The function 'doSomething' is passed as a callback to 'modifyArray', which is used to multiply each element in the list [1, 2, 3] by a factor of 2. As a result, 'modifyArray' can execute 'doSomething' on these elements while our program continues asynchronously
-18. 
+19. 1
+    4
+    3
+    2
